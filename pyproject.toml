@@ -1,0 +1,22 @@
+[project]
+name = "TEMPLATE"
+version = "0.0.0"
+description = "description"
+readme = "README.md"
+
+dependencies = [
+    "tqdm>=4.70.0"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel==6.30.1",
+    "ruff==0.12.10",
+    "pre_commit==4.3.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+
+[tool.setuptools]
+packages = ["TEMPLATE"]
